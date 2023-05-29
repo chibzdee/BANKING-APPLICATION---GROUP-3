@@ -11,7 +11,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane; 
 
 /**
 
@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
  * @author hp
  */
 
-public class billpayment extends javax.swing.JFrame {
+public class billpayment extends javax.swing.JFrame { 
 
     /** Creates new form billpayment */
     public billpayment() {
@@ -32,8 +32,8 @@ public class billpayment extends javax.swing.JFrame {
     
     
     DateTimeFormatter dtf=DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
-        LocalDateTime now = LocalDateTime.now();
-        datetime.setText(dtf.format(now));
+        LocalDateTime now = LocalDateTime.now(); 
+        datetime.setText(dtf.format(now)); 
     
     }
     
@@ -52,7 +52,7 @@ public class billpayment extends javax.swing.JFrame {
         datetime = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel(); 
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         billername = new javax.swing.JTextField();
@@ -65,12 +65,12 @@ public class billpayment extends javax.swing.JFrame {
         min = new javax.swing.JLabel();
         max = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel(); 
         jLabel15 = new javax.swing.JLabel();
         acbalance = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox<>();
         amount = new javax.swing.JTextField();
-        jButton4 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton(); 
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -78,18 +78,18 @@ public class billpayment extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel1.setText("PAY BILLS");
+        jLabel1.setText("PAY BILLS"); 
 
         datetime.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         datetime.setText("Date");
         datetime.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                datetimeMouseClicked(evt);
+                datetimeMouseClicked(evt); 
             }
         });
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 51, 0));
+        jLabel3.setForeground(new java.awt.Color(255, 51, 0)); 
         jLabel3.setText("<BACK>");
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
