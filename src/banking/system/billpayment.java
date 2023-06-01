@@ -30,7 +30,9 @@ public class billpayment extends javax.swing.JFrame {
     public billpayment() {
         initComponents();
         currentdateTime();
+    
     }
+    
     
     public void currentdateTime(){
     
